@@ -1,0 +1,1258 @@
+[
+  {
+    "document_name": "THE BROWN FOX",
+    "nodes": [
+      {
+        "predecessors": [],
+        "successors": [
+          "PART 0[1]"
+        ],
+        "key": "DOC [0]",
+        "content": {
+          "friendly_name": "",
+          "level": 0,
+          "has_title": 1,
+          "pad": 0,
+          "has_text": 100,
+          "industry": "finance",
+          "title-offset": 3,
+          "id": "commission-delegated-regulation-eu-2017-104",
+          "text": "this is a sample text.",
+          "references": {
+            "level_3": [],
+            "level_2": [
+              {
+                "external_ref_id": "commission-delegated-regulation-eu-2017-180/paragraph-1001"
+              }
+            ]
+          },
+          "meta": "THE BROWN FOX",
+          "document_level": 2,
+          "title": [
+            "COMMISSION DELEGATED REGULATION (EU) 2017/104",
+            "of 19 October 2016",
+            "amending Delegated Regulation (EU) No 148/2013"
+          ]
+        }
+      },
+      {
+        "predecessors": [
+          "DOC [0]"
+        ],
+        "successors": [],
+        "key": "PART 0[1]",
+        "content": {
+          "seq_number": 5,
+          "friendly_name": "",
+          "references": {
+            "level_3": [],
+            "level_2": [
+              {
+                "external_ref_id": "commission-delegated-regulation-eu-2017-180/paragraph-1001",
+                "line_nr": -1,
+                "text_start": 0,
+                "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5/references/ref1",
+                "text_end": 11,
+                "reference_dict": {
+                  "regulation": [
+                    "this"
+                  ],
+                  "paragraph": [
+                    "5"
+                  ]
+                }
+              }
+            ],
+            "level_1": [],
+            "unknown": [
+              {
+                "external_ref_id": null,
+                "line_nr": 0,
+                "text_start": 274,
+                "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5/references/ref0",
+                "text_end": 334,
+                "reference_dict": {
+                  "article": [
+                    "78"
+                  ],
+                  "directive": [
+                    "2013/36/EU"
+                  ],
+                  "subparagraph": [
+                    "2"
+                  ],
+                  "paragraph": [
+                    "3"
+                  ]
+                }
+              }
+            ]
+          },
+          "label": "not_evaluated",
+          "has_text": 1,
+          "text_tagged_high_level": " Competent authorities <goal(deontic-obligation)>shall",
+          "industry": "finance",
+          "level": 6,
+          "workflow_theme": "not_evaluated",
+          "text_tagged": " <authorities><authorities>Competent authorities</authorities></authorities>",
+          "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5",
+          "text": "this is a sample text",
+          "pad": 0,
+          "meta": "THE BROWN FOX",
+          "document_level": 2,
+          "title": ["A"],
+          "tags": [
+            "final own funds",
+            "EBA",
+            "profit",
+            "MATCHING_TAG 01",
+            "MATCHING_TAG 02"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "document_name": "DIRECTIVE 2002/92/EC",
+    "nodes": [
+      {
+        "predecessors": [],
+        "successors": [
+          "PART 0[1]"
+        ],
+        "key": "DOC [0]",
+        "content": {
+          "friendly_name": "THE BROWN FOX",
+          "level": 0,
+          "has_title": 1,
+          "pad": 0,
+          "has_text": 0,
+          "industry": "finance",
+          "title-offset": 3,
+          "id": "commission-delegated-regulation-eu-2017-104/part-ix/article-100",
+          "text": "this is a sample text",
+          "meta": "COMMISSION DELEGATED REGULATION (EU) 2017/104",
+          "document_level": 2,
+          "title": [
+            "COMMISSION DELEGATED REGULATION (EU) 2017/104",
+            "of 19 October 2016",
+            "amending Delegated Regulation (EU) No 148/2013"
+          ],
+          "tags": [
+            "TAG 01",
+            "EBA",
+            "profit",
+            "MATCHING_TAG 02"
+          ]
+        }
+      },
+      {
+        "predecessors": [
+          "DOC [0]"
+        ],
+        "successors": [],
+        "key": "PART 0[1]",
+        "content": {
+          "seq_number": 5,
+          "friendly_name": "",
+          "references": {
+            "level_3": [],
+            "level_2": [
+              {
+                "external_ref_id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5",
+                "line_nr": -1,
+                "text_start": 0,
+                "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5/references/ref1",
+                "text_end": 11,
+                "reference_dict": {
+                  "regulation": [
+                    "this"
+                  ],
+                  "paragraph": [
+                    "5"
+                  ]
+                }
+              }
+            ],
+            "level_1": [],
+            "unknown": [
+              {
+                "external_ref_id": null,
+                "line_nr": 0,
+                "text_start": 274,
+                "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5/references/ref0",
+                "text_end": 334,
+                "reference_dict": {
+                  "article": [
+                    "78"
+                  ],
+                  "directive": [
+                    "2013/36/EU"
+                  ],
+                  "subparagraph": [
+                    "2"
+                  ],
+                  "paragraph": [
+                    "3"
+                  ]
+                }
+              }
+            ]
+          },
+          "label": "not_evaluated",
+          "has_text": 1,
+          "text_tagged_high_level": " Competent authorities <goal(deontic-obligation)>shall",
+          "industry": "finance",
+          "level": 6,
+          "workflow_theme": "not_evaluated",
+          "text_tagged": " <authorities><authorities>Competent authorities</authorities></authorities>",
+          "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5",
+          "text": "this is a sample text",
+          "pad": 0,
+          "meta": "PARAGRAPH 5",
+          "document_level": 2,
+          "title": [],
+          "tags": [
+            "TAG 01",
+            "EBA",
+            "profit"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "document_name": "DIRECTIVE 2006/123/EC",
+    "nodes": [
+      {
+        "predecessors": [],
+        "successors": [
+          "PART 0[1]"
+        ],
+        "key": "DOC [0]",
+        "content": {
+          "friendly_name": "",
+          "level": 0,
+          "has_title": 1,
+          "pad": 0,
+          "has_text": 0,
+          "industry": "finance",
+          "title-offset": 3,
+          "id": "commission-delegated-regulation-eu-2017-104",
+          "text": "this is a sample text",
+          "meta": "COMMISSION DELEGATED REGULATION (EU) 2017/104",
+          "document_level": 2,
+          "title": [
+            "COMMISSION DELEGATED REGULATION (EU) 2017/104",
+            "of 19 October 2016",
+            "amending Delegated Regulation (EU) No 148/2013"
+          ]
+        }
+      },
+      {
+        "predecessors": [
+          "DOC [0]"
+        ],
+        "successors": [],
+        "key": "PART 0[1]",
+        "content": {
+          "seq_number": 5,
+          "friendly_name": "",
+          "references": {
+            "level_3": [],
+            "level_2": [
+              {
+                "external_ref_id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5",
+                "line_nr": -1,
+                "text_start": 0,
+                "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5/references/ref1",
+                "text_end": 11,
+                "reference_dict": {
+                  "regulation": [
+                    "this"
+                  ],
+                  "paragraph": [
+                    "5"
+                  ]
+                }
+              }
+            ],
+            "level_1": [],
+            "unknown": [
+              {
+                "external_ref_id": null,
+                "line_nr": 0,
+                "text_start": 274,
+                "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5/references/ref0",
+                "text_end": 334,
+                "reference_dict": {
+                  "article": [
+                    "78"
+                  ],
+                  "directive": [
+                    "2013/36/EU"
+                  ],
+                  "subparagraph": [
+                    "2"
+                  ],
+                  "paragraph": [
+                    "3"
+                  ]
+                }
+              }
+            ]
+          },
+          "label": "not_evaluated",
+          "has_text": 1,
+          "text_tagged_high_level": " Competent authorities <goal(deontic-obligation)>shall",
+          "industry": "finance",
+          "level": 6,
+          "workflow_theme": "not_evaluated",
+          "text_tagged": " <authorities><authorities>Competent authorities</authorities></authorities>",
+          "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5",
+          "text": "this is a sample text",
+          "pad": 0,
+          "meta": "PARAGRAPH 5",
+          "document_level": 2,
+          "title": [],
+          "tags": [
+            "final own funds",
+            "EBA",
+            "profit"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "document_name": "the white rabit",
+    "nodes": [
+      {
+        "predecessors": [],
+        "successors": [
+          "PART 0[1]"
+        ],
+        "key": "DOC [0]",
+        "content": {
+          "friendly_name": "",
+          "level": 0,
+          "has_title": 1,
+          "label": "label 01",
+          "pad": 0,
+          "has_text": 0,
+          "industry": "finance",
+          "title-offset": 3,
+          "id": "commission-delegated-regulation-eu-2017-104",
+          "text": "this is a sample text",
+          "meta": "the white rabit",
+          "document_level": 2,
+          "title": [
+            "COMMISSION DELEGATED REGULATION (EU) 2017/104",
+            "of 19 October 2016",
+            "amending Delegated Regulation (EU) No 148/2013"
+          ]
+        }
+      },
+      {
+        "predecessors": [
+          "DOC [0]"
+        ],
+        "successors": [],
+        "key": "PART 0[1]",
+        "content": {
+          "seq_number": 5,
+          "friendly_name": "",
+          "references": {
+            "level_3": [],
+            "level_2": [
+              {
+                "external_ref_id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5",
+                "line_nr": -1,
+                "text_start": 0,
+                "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5/references/ref1",
+                "text_end": 11,
+                "reference_dict": {
+                  "regulation": [
+                    "this"
+                  ],
+                  "paragraph": [
+                    "5"
+                  ]
+                }
+              }
+            ],
+            "level_1": [],
+            "unknown": [
+              {
+                "external_ref_id": null,
+                "line_nr": 0,
+                "text_start": 274,
+                "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5/references/ref0",
+                "text_end": 334,
+                "reference_dict": {
+                  "article": [
+                    "78"
+                  ],
+                  "directive": [
+                    "2013/36/EU"
+                  ],
+                  "subparagraph": [
+                    "2"
+                  ],
+                  "paragraph": [
+                    "3"
+                  ]
+                }
+              }
+            ]
+          },
+          "label": "label 01",
+          "has_text": 1,
+          "text_tagged_high_level": " Competent authorities <goal(deontic-obligation)>shall",
+          "industry": "finance",
+          "level": 6,
+          "workflow_theme": "workflow_theme 01",
+          "text_tagged": " <authorities><authorities>Competent authorities</authorities></authorities>",
+          "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5",
+          "text": "this is a sample text",
+          "pad": 0,
+          "meta": "the white rabit",
+          "document_level": 2,
+          "title": [],
+          "tags": [
+            "MATCHING_TAG 04",
+            "final own funds",
+            "EBA",
+            "profit"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "document_name": "COMMISSION DELEGATED REGULATION (EU) 2015/2",
+    "nodes": [
+      {
+        "predecessors": [],
+        "successors": [
+          "PART 0[1]"
+        ],
+        "key": "DOC [0]",
+        "content": {
+          "friendly_name": "",
+          "level": 0,
+          "has_title": 1,
+          "pad": 0,
+          "has_text": 0,
+          "industry": "finance",
+          "title-offset": 3,
+          "id": "commission-delegated-regulation-eu-2017-104",
+          "text": "this is a sample text",
+          "meta": "COMMISSION DELEGATED REGULATION (EU) 2017/104",
+          "document_level": 1,
+          "title": [
+            "COMMISSION DELEGATED REGULATION (EU) 2017/104",
+            "of 19 October 2016",
+            "amending Delegated Regulation (EU) No 148/2013"
+          ]
+        }
+      },
+      {
+        "predecessors": [
+          "DOC [0]"
+        ],
+        "successors": [],
+        "key": "PART 0[1]",
+        "content": {
+          "seq_number": 5,
+          "friendly_name": "",
+          "references": {
+            "level_3": [],
+            "level_2": [
+              {
+                "external_ref_id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5",
+                "line_nr": -1,
+                "text_start": 0,
+                "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5/references/ref1",
+                "text_end": 11,
+                "reference_dict": {
+                  "regulation": [
+                    "this"
+                  ],
+                  "paragraph": [
+                    "5"
+                  ]
+                }
+              }
+            ],
+            "level_1": [],
+            "unknown": [
+              {
+                "external_ref_id": null,
+                "line_nr": 0,
+                "text_start": 274,
+                "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5/references/ref0",
+                "text_end": 334,
+                "reference_dict": {
+                  "article": [
+                    "78"
+                  ],
+                  "directive": [
+                    "2013/36/EU"
+                  ],
+                  "subparagraph": [
+                    "2"
+                  ],
+                  "paragraph": [
+                    "3"
+                  ]
+                }
+              }
+            ]
+          },
+          "label": "not_evaluated",
+          "has_text": 1,
+          "text_tagged_high_level": " Competent authorities <goal(deontic-obligation)>shall",
+          "industry": "finance",
+          "level": 6,
+          "workflow_theme": "not_evaluated",
+          "text_tagged": " <authorities><authorities>Competent authorities</authorities></authorities>",
+          "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5",
+          "text": "this is a sample text",
+          "pad": 0,
+          "meta": "PARAGRAPH 5",
+          "document_level": 2,
+          "title": [],
+          "tags": [
+            "final own funds",
+            "EBA",
+            "profit",
+            "MATCHING_TAG 01",
+            "MATCHING_TAG 02"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "document_name": "COMMISSION DELEGATED REGULATION (EU) 2015/3",
+    "nodes": [
+      {
+        "predecessors": [],
+        "successors": [
+          "PART 0[1]"
+        ],
+        "key": "DOC [0]",
+        "content": {
+          "friendly_name": "",
+          "level": 0,
+          "has_title": 1,
+          "pad": 0,
+          "has_text": 0,
+          "industry": "finance",
+          "title-offset": 3,
+          "id": "commission-delegated-regulation-eu-2017-104",
+          "text": "this is a sample text. A second sentence. First evidence to be found",
+          "meta": "COMMISSION DELEGATED REGULATION (EU) 2017/104",
+          "document_level": 1,
+          "title": [
+            "COMMISSION DELEGATED REGULATION (EU) 2017/104",
+            "of 19 October 2016",
+            "amending Delegated Regulation (EU) No 148/2013"
+          ]
+        }
+      },
+      {
+        "predecessors": [
+          "DOC [0]"
+        ],
+        "successors": [],
+        "key": "PART 0[1]",
+        "content": {
+          "seq_number": 5,
+          "friendly_name": "",
+          "references": {
+            "level_3": [],
+            "level_2": [
+              {
+                "external_ref_id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5",
+                "line_nr": -1,
+                "text_start": 0,
+                "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5/references/ref1",
+                "text_end": 11,
+                "reference_dict": {
+                  "regulation": [
+                    "this"
+                  ],
+                  "paragraph": [
+                    "5"
+                  ]
+                }
+              }
+            ],
+            "level_1": [],
+            "unknown": [
+              {
+                "external_ref_id": null,
+                "line_nr": 0,
+                "text_start": 274,
+                "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5/references/ref0",
+                "text_end": 334,
+                "reference_dict": {
+                  "article": [
+                    "78"
+                  ],
+                  "directive": [
+                    "2013/36/EU"
+                  ],
+                  "subparagraph": [
+                    "2"
+                  ],
+                  "paragraph": [
+                    "3"
+                  ]
+                }
+              }
+            ]
+          },
+          "label": "not_evaluated",
+          "has_text": 1,
+          "text_tagged_high_level": " Competent authorities <goal(deontic-obligation)>shall",
+          "industry": "finance",
+          "level": 6,
+          "workflow_theme": "not_evaluated",
+          "text_tagged": " <authorities><authorities>Competent authorities</authorities></authorities>",
+          "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5",
+          "text": "this is a sample text",
+          "pad": 0,
+          "meta": "PARAGRAPH 5",
+          "document_level": 1,
+          "title": [],
+          "tags": [
+            "final own funds",
+            "TAG 02",
+            "profit"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "document_name": "COMMISSION IMPLEMENTING REGULATION (EU) 2017/954",
+    "nodes": [
+      {
+        "predecessors": [],
+        "successors": [
+          "PART 0[1]"
+        ],
+        "key": "DOC [0]",
+        "content": {
+          "friendly_name": "",
+          "level": 0,
+          "has_title": 1,
+          "pad": 0,
+          "has_text": 0,
+          "industry": "finance",
+          "title-offset": 3,
+          "id": "commission-delegated-regulation-eu-2017-104",
+          "text": "this is a sample text",
+          "meta": "COMMISSION DELEGATED REGULATION (EU) 2017/104",
+          "document_level": 1,
+          "title": [
+            "COMMISSION DELEGATED REGULATION (EU) 2017/104",
+            "of 19 October 2016",
+            "amending Delegated Regulation (EU) No 148/2013"
+          ]
+        }
+      },
+      {
+        "predecessors": [
+          "DOC [0]"
+        ],
+        "successors": [],
+        "key": "PART 0[1]",
+        "content": {
+          "seq_number": 5,
+          "friendly_name": "",
+          "references": {
+            "level_3": [],
+            "level_2": [
+              {
+                "external_ref_id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5",
+                "line_nr": -1,
+                "text_start": 0,
+                "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5/references/ref1",
+                "text_end": 11,
+                "reference_dict": {
+                  "regulation": [
+                    "this"
+                  ],
+                  "paragraph": [
+                    "5"
+                  ]
+                }
+              }
+            ],
+            "level_1": [],
+            "unknown": [
+              {
+                "external_ref_id": null,
+                "line_nr": 0,
+                "text_start": 274,
+                "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5/references/ref0",
+                "text_end": 334,
+                "reference_dict": {
+                  "article": [
+                    "78"
+                  ],
+                  "directive": [
+                    "2013/36/EU"
+                  ],
+                  "subparagraph": [
+                    "2"
+                  ],
+                  "paragraph": [
+                    "3"
+                  ]
+                }
+              }
+            ]
+          },
+          "label": "not_evaluated",
+          "has_text": 1,
+          "text_tagged_high_level": " Competent authorities <goal(deontic-obligation)>shall",
+          "industry": "finance",
+          "level": 6,
+          "workflow_theme": "not_evaluated",
+          "text_tagged": " <authorities><authorities>Competent authorities</authorities></authorities>",
+          "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5",
+          "text": "this is a sample text",
+          "pad": 0,
+          "meta": "PARAGRAPH 5",
+          "document_level": 2,
+          "title": [],
+          "tags": [
+            "TAG 01",
+            "EBA",
+            "TAG 02"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "document_name": "REGULATION (EC) No 714/2009",
+    "nodes": [
+      {
+        "predecessors": [],
+        "successors": [
+          "PART 0[1]"
+        ],
+        "key": "DOC [0]",
+        "content": {
+          "friendly_name": "wrong turn to the left",
+          "level": 0,
+          "has_title": 1,
+          "pad": 0,
+          "has_text": 0,
+          "industry": "finance",
+          "title-offset": 3,
+          "id": "commission-delegated-regulation-eu-2017-104",
+          "text": "this is a sample text",
+          "meta": "COMMISSION DELEGATED REGULATION (EU) 2017/104",
+          "document_level": 1,
+          "title": [
+            "COMMISSION DELEGATED REGULATION (EU) 2017/104",
+            "of 19 October 2016",
+            "amending Delegated Regulation (EU) No 148/2013"
+          ]
+        }
+      },
+      {
+        "predecessors": [
+          "DOC [0]"
+        ],
+        "successors": [],
+        "key": "PART 0[1]",
+        "content": {
+          "seq_number": 5,
+          "friendly_name": "",
+          "references": {
+            "level_3": [],
+            "level_2": [
+              {
+                "external_ref_id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5",
+                "line_nr": -1,
+                "text_start": 0,
+                "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5/references/ref1",
+                "text_end": 11,
+                "reference_dict": {
+                  "regulation": [
+                    "this"
+                  ],
+                  "paragraph": [
+                    "5"
+                  ]
+                }
+              }
+            ],
+            "level_1": [],
+            "unknown": [
+              {
+                "external_ref_id": null,
+                "line_nr": 0,
+                "text_start": 274,
+                "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5/references/ref0",
+                "text_end": 334,
+                "reference_dict": {
+                  "article": [
+                    "78"
+                  ],
+                  "directive": [
+                    "2013/36/EU"
+                  ],
+                  "subparagraph": [
+                    "2"
+                  ],
+                  "paragraph": [
+                    "3"
+                  ]
+                }
+              }
+            ]
+          },
+          "label": "not_evaluated",
+          "has_text": 1,
+          "text_tagged_high_level": " Competent authorities <goal(deontic-obligation)>shall",
+          "industry": "finance",
+          "level": 6,
+          "workflow_theme": "not_evaluated",
+          "text_tagged": " <authorities><authorities>Competent authorities</authorities></authorities>",
+          "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5",
+          "text": "this is a sample text",
+          "pad": 0,
+          "meta": "PARAGRAPH 5",
+          "document_level": 2,
+          "title": [],
+          "tags": [
+            "final own funds",
+            "EBA",
+            "profit"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "document_name": "REGULATION (EC) No 924/2009",
+    "nodes": [
+      {
+        "predecessors": [],
+        "successors": [
+          "PART 0[1]"
+        ],
+        "key": "DOC [0]",
+        "content": {
+          "friendly_name": "",
+          "level": 0,
+          "has_title": 1,
+          "pad": 0,
+          "has_text": 0,
+          "industry": "finance",
+          "title-offset": 3,
+          "id": "commission-delegated-regulation-eu-2017-104",
+          "text": "this is a sample text",
+          "meta": "COMMISSION DELEGATED REGULATION (EU) 2017/104",
+          "document_level": 3,
+          "title": [
+            "COMMISSION DELEGATED REGULATION (EU) 2017/104",
+            "of 19 October 2016",
+            "amending Delegated Regulation (EU) No 148/2013"
+          ]
+        }
+      },
+      {
+        "predecessors": [
+          "DOC [0]"
+        ],
+        "successors": [],
+        "key": "PART 0[1]",
+        "content": {
+          "seq_number": 5,
+          "friendly_name": "",
+          "references": {
+            "level_3": [],
+            "level_2": [
+              {
+                "external_ref_id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5",
+                "line_nr": -1,
+                "text_start": 0,
+                "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5/references/ref1",
+                "text_end": 11,
+                "reference_dict": {
+                  "regulation": [
+                    "this"
+                  ],
+                  "paragraph": [
+                    "5"
+                  ]
+                }
+              }
+            ],
+            "level_1": [],
+            "unknown": [
+              {
+                "external_ref_id": null,
+                "line_nr": 0,
+                "text_start": 274,
+                "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5/references/ref0",
+                "text_end": 334,
+                "reference_dict": {
+                  "article": [
+                    "78"
+                  ],
+                  "directive": [
+                    "2013/36/EU"
+                  ],
+                  "subparagraph": [
+                    "2"
+                  ],
+                  "paragraph": [
+                    "3"
+                  ]
+                }
+              }
+            ]
+          },
+          "label": "not_evaluated",
+          "has_text": 1,
+          "text_tagged_high_level": " Competent authorities <goal(deontic-obligation)>shall",
+          "industry": "finance",
+          "level": 6,
+          "workflow_theme": "not_evaluated",
+          "text_tagged": " <authorities><authorities>Competent authorities</authorities></authorities>",
+          "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5",
+          "text": "this is a sample text",
+          "pad": 0,
+          "meta": "PARAGRAPH 5",
+          "document_level": 2,
+          "title": [],
+          "tags": [
+            "final own funds",
+            "EBA",
+            "profit"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "document_name": "COMMISSION IMPLEMENTING REGULATION (EU) No 827/2012",
+    "nodes": [
+      {
+        "predecessors": [],
+        "successors": [
+          "PART 0[1]"
+        ],
+        "key": "DOC [0]",
+        "content": {
+          "friendly_name": "",
+          "level": 0,
+          "has_title": 1,
+          "pad": 0,
+          "has_text": 0,
+          "industry": "finance",
+          "title-offset": 3,
+          "id": "commission-delegated-regulation-eu-2017-104",
+          "text": "this is a sample text",
+          "meta": "COMMISSION DELEGATED REGULATION (EU) 2017/104",
+          "document_level": 3,
+          "title": [
+            "COMMISSION DELEGATED REGULATION (EU) 2017/104",
+            "of 19 October 2016",
+            "amending Delegated Regulation (EU) No 148/2013"
+          ]
+        }
+      },
+      {
+        "predecessors": [
+          "DOC [0]"
+        ],
+        "successors": [],
+        "key": "PART 0[1]",
+        "content": {
+          "seq_number": 5,
+          "friendly_name": "",
+          "references": {
+            "level_3": [],
+            "level_2": [
+              {
+                "external_ref_id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5",
+                "line_nr": -1,
+                "text_start": 0,
+                "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5/references/ref1",
+                "text_end": 11,
+                "reference_dict": {
+                  "regulation": [
+                    "this"
+                  ],
+                  "paragraph": [
+                    "5"
+                  ]
+                }
+              }
+            ],
+            "level_1": [],
+            "unknown": [
+              {
+                "external_ref_id": null,
+                "line_nr": 0,
+                "text_start": 274,
+                "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5/references/ref0",
+                "text_end": 334,
+                "reference_dict": {
+                  "article": [
+                    "78"
+                  ],
+                  "directive": [
+                    "2013/36/EU"
+                  ],
+                  "subparagraph": [
+                    "2"
+                  ],
+                  "paragraph": [
+                    "3"
+                  ]
+                }
+              }
+            ]
+          },
+          "label": "not_evaluated",
+          "has_text": 1,
+          "text_tagged_high_level": " Competent authorities <goal(deontic-obligation)>shall",
+          "industry": "finance",
+          "level": 6,
+          "workflow_theme": "not_evaluated",
+          "text_tagged": " <authorities><authorities>Competent authorities</authorities></authorities>",
+          "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5",
+          "text": "this is a sample text",
+          "pad": 0,
+          "meta": "PARAGRAPH 5",
+          "document_level": 2,
+          "title": [],
+          "tags": [
+            "final own funds",
+            "EBA",
+            "profit"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "document_name": "COMMISSION IMPLEMENTING REGULATION (EU) 2016/1702",
+    "nodes": [
+      {
+        "predecessors": [],
+        "successors": [
+          "PART 0[1]"
+        ],
+        "key": "DOC [0]",
+        "content": {
+          "friendly_name": "",
+          "level": 0,
+          "has_title": 1,
+          "pad": 0,
+          "has_text": 0,
+          "industry": "pharmacy",
+          "title-offset": 3,
+          "id": "commission-delegated-regulation-eu-2017-104",
+          "text": "this is a sample text",
+          "meta": "COMMISSION DELEGATED REGULATION (EU) 2017/104",
+          "document_level": 3,
+          "title": [
+            "COMMISSION DELEGATED REGULATION (EU) 2017/104",
+            "of 19 October 2016",
+            "amending Delegated Regulation (EU) No 148/2013"
+          ]
+        }
+      },
+      {
+        "predecessors": [
+          "DOC [0]"
+        ],
+        "successors": [],
+        "key": "PART 0[1]",
+        "content": {
+          "seq_number": 5,
+          "friendly_name": "",
+          "references": {
+            "level_3": [],
+            "level_2": [
+              {
+                "external_ref_id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5",
+                "line_nr": -1,
+                "text_start": 0,
+                "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5/references/ref1",
+                "text_end": 11,
+                "reference_dict": {
+                  "regulation": [
+                    "this"
+                  ],
+                  "paragraph": [
+                    "5"
+                  ]
+                }
+              }
+            ],
+            "level_1": [],
+            "unknown": [
+              {
+                "external_ref_id": null,
+                "line_nr": 0,
+                "text_start": 274,
+                "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5/references/ref0",
+                "text_end": 334,
+                "reference_dict": {
+                  "article": [
+                    "78"
+                  ],
+                  "directive": [
+                    "2013/36/EU"
+                  ],
+                  "subparagraph": [
+                    "2"
+                  ],
+                  "paragraph": [
+                    "3"
+                  ]
+                }
+              }
+            ]
+          },
+          "label": "not_evaluated",
+          "has_text": 1,
+          "text_tagged_high_level": " Competent authorities <goal(deontic-obligation)>shall",
+          "industry": "finance",
+          "level": 6,
+          "workflow_theme": "not_evaluated",
+          "text_tagged": " <authorities><authorities>Competent authorities</authorities></authorities>",
+          "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5",
+          "text": "this is a sample text",
+          "pad": 0,
+          "meta": "PARAGRAPH 5",
+          "document_level": 2,
+          "title": [],
+          "tags": [
+            "final own funds",
+            "EBA",
+            "profit"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "document_name": "COMMISSION IMPLEMENTING REGULATION (EU) 2016/1799",
+    "nodes": [
+      {
+        "predecessors": [],
+        "successors": [
+          "PART 0[1]"
+        ],
+        "key": "DOC [0]",
+        "content": {
+          "friendly_name": "",
+          "level": 0,
+          "has_title": 1,
+          "pad": 0,
+          "has_text": 0,
+          "industry": "pharmacy",
+          "title-offset": 3,
+          "id": "commission-delegated-regulation-eu-2017-104",
+          "text": "this is a sample text.  First evidence to be found",
+          "meta": "COMMISSION DELEGATED REGULATION (EU) 2017/104",
+          "document_level": 3,
+          "title": [
+            "COMMISSION DELEGATED REGULATION (EU) 2017/104",
+            "of 19 October 2016",
+            "amending Delegated Regulation (EU) No 148/2013"
+          ]
+        }
+      },
+      {
+        "predecessors": [
+          "DOC [0]"
+        ],
+        "successors": [],
+        "key": "PART 0[1]",
+        "content": {
+          "seq_number": 5,
+          "friendly_name": "",
+          "references": {
+            "level_3": [],
+            "level_2": [
+              {
+                "external_ref_id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5",
+                "line_nr": -1,
+                "text_start": 0,
+                "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5/references/ref1",
+                "text_end": 11,
+                "reference_dict": {
+                  "regulation": [
+                    "this"
+                  ],
+                  "paragraph": [
+                    "5"
+                  ]
+                }
+              }
+            ],
+            "level_1": [],
+            "unknown": [
+              {
+                "external_ref_id": null,
+                "line_nr": 0,
+                "text_start": 274,
+                "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5/references/ref0",
+                "text_end": 334,
+                "reference_dict": {
+                  "article": [
+                    "78"
+                  ],
+                  "directive": [
+                    "2013/36/EU"
+                  ],
+                  "subparagraph": [
+                    "2"
+                  ],
+                  "paragraph": [
+                    "3"
+                  ]
+                }
+              }
+            ]
+          },
+          "label": "not_evaluated",
+          "has_text": 1,
+          "text_tagged_high_level": " Competent authorities <goal(deontic-obligation)>shall",
+          "industry": "pharmacy",
+          "level": 6,
+          "workflow_theme": "not_evaluated",
+          "text_tagged": " <authorities><authorities>Competent authorities</authorities></authorities>",
+          "id": "commission-delegated-regulation-eu-2017-180/part-0/title-0/chapter-0/section-0/article-10/paragraph-5",
+          "text": "this is a sample text. First evidence to be found",
+          "pad": 0,
+          "meta": "PARAGRAPH 5",
+          "document_level": 2,
+          "title": [],
+          "tags": [
+            "final own funds",
+            "TAG 02",
+            "profit"
+          ]
+        }
+      }
+    ]
+  }
+]

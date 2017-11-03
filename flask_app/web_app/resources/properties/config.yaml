@@ -1,0 +1,25 @@
+db:
+  postgresql:
+    host: wayfinder-dev.c7xrjh49xoxv.eu-west-2.rds.amazonaws.com
+    port: 5432
+    user: wayfinder
+    password: wayfinderDev03!
+    dbname: wayfinder
+  sqlalchemy: postgresql+psycopg2://wayfinder:wayfinderDev03!@wayfinder-dev.c7xrjh49xoxv.eu-west-2.rds.amazonaws.com:5432/wayfinder
+  elasticsearch:
+    hostname: https://search-wayfinder-dev-xowww75lkplblagpsjbjno624m.eu-west-2.es.amazonaws.com
+    access_key: AKIAJIFQ6MWXENJOUF6Q
+    secret_key: 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
+    region: eu-west-2
+    lang: es
+    use_ssl: true
+    entities:
+      document:
+        index: documents
+        type: documents
+      requirement:
+        index: documents
+        type: documents
+      companyindex:
+        index: companies
+        type: companies
