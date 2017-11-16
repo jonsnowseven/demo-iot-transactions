@@ -2,6 +2,7 @@ import sys
 import time
 import socket
 import glob
+import re
 
 from pandas import read_csv
 
@@ -32,7 +33,13 @@ class Netcat:
 
 
 def read_all(pattern):
-    return glob.glob(pattern)
+    def extract_int_from_file(file):
+        match = re.search(r"_(?P<int>\d+)\.csv", file)
+        if match:
+            return int(match.group("int"))
+
+    files = glob.glob(pattern)
+    return sorted(files, key=extract_int_from_file)
 
 
 frequency = float(sys.argv[1])
@@ -40,19 +47,18 @@ journey_ids = [int(x) for x in sys.argv[2:]]
 
 transactions = read_all('/Users/joaoneves/Documents/demo-iot-transactions/data/transactions/*.csv')
 serialize_rd = lambda x: (','.join((str(i) for i in row)) for row in x.values.tolist())
-journey_road_danger = {i + 1: serialize_rd(read_csv(file)) for i, file in enumerate(transactions) if
-                       i + 1 in journey_ids}
+transaction_journey = {i: serialize_rd(read_csv(file)) for i, file in enumerate(transactions) if i in journey_ids}
 
-# print(journey_road_danger)
+# print(transaction_journey)
 
 nc = Netcat(ip='localhost', port=5900)
 
-print(journey_ids)
+# print(journey_ids)
 
 while True:
     for id in journey_ids:
         try:
-            line = next(journey_road_danger[id])
+            line = next(transaction_journey[id])
             # print(line)
             nc.write('{}\n'.format(line))
         except Exception as e:

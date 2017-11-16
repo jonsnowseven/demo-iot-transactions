@@ -18,7 +18,7 @@ def index():
     return "<h1>Transactions Demo</h1>\n"
 
 
-@streams.route('/stream/start/fraud_detection', methods=['GET'])
+@streams.route('/stream/start/transactions', methods=['GET'])
 @parse_args(RequestParser.withParameters(
     Parameter('speed', type=str, required=True),
     Parameter('transactions', type=str, required=True))
@@ -66,7 +66,7 @@ def start_stream_transactions(speed, transactions):
     return jsonify({"status": "streaming", "msg": "OK"})
 
 
-@streams.route('/stream/stop/fraud_detection', methods=['DELETE'])
+@streams.route('/stream/stop/transactions', methods=['DELETE'])
 def stop_stream_transactions():
     """
     Stop 'Transactions' streaming process
